@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Introdução ao <i>HTML</i> na prática</h1>
+    <ul>
+        <ol>
+            <li><a href="#">Apresentação do Curso</a></i></li>
+            <li><a href="#">Ferramentas Utilizadas</a></i></li>
+            <li><a href="#">Inspetor de Elementos</a></i></li>
+            <li><a href="#">Estrutura Básica do HTML</a></i></li>
+            <li><a href="#">Falando sobre Tags</a></i></li>
+            <li><a href="#">Atributos das tags</a></i></li>
+            <li><a href="#">Textos</a></i></li>
+            <li><a href="#">Listas Ordenadas e Não Ordenadas</a></i></li>
+            <li><a href="#">links</a></i></li>
+            <li><a href="#">Referências</a></i></li>
+        </ol>
+    </ul>
+    <hr>
+    <h2 style="color:orangered"> 01 - Apresentação do Curso</h2>
+    <p>
+        O curso ministrado pelo professor <strong><mark>Diogo Mainardes</mark></strong> apresenta um conceito introdutório da estrutura básica de um <strong>HTML</strong>
+    </p>
+    <a href="#inicio">voltar ao início</a>
+    <H2 style="color:orangered">02 - Ferramentas utilizadas</H2>
+    <p>
+        Apesar da estrutura <strong>HTML</strong> poder ser marcado com qualquer editor de texto, existem ferramentas que nos auxiliam na construção de páginas, otimizando tempo devido a praticidade de suas ferramentas.<br>
+        Neste curso será usado o <strong>Visual Studio Code</strong>, cujo qual foi totalmente explicado neste curso como instalar e configurar o programa.
+     </p>
+     <a href="#inicio">voltar ao início</a>
+     <H2 style="color:orangered">03 - Inspetor de Elementos</H2>
+     <p>
+        O inspetor de elementos trata-se de uma ferramenta exclusiva do <strong><u>Chrome</u></strong> que permite que o usúario visualise os códigos <strong>HTML</strong>, também é possivel visualizar como a mesma pagina se comporta em diversos dispositivos e também temos a possíbilidade de mudar alguns elementos do código durante a inspeção.
+     </p>
+     <a href="#inicio">voltar ao início</a>
+     <h2 style="color:orangered"> 04 - Estrutura Básica do <strong>HTML</strong></h2>
+     <p>
+        A <strong>Estrutura básica do <i>HTML</i></strong> consiste em <strong>3</strong> partes: HTML - HEAD - BODY
+     </p>
+            <ul>
+                <li>html = <code>&lsaquo;html&rsaquo; &lsaquo;/html&rsaquo;</code></li>
+                <p>
+                    incia o HTML COM SINAL DE MAIOR &lsaquo; e fecha com a barra / e sinal de MENOR &rsaquo;
+                </p> 
+                <hr>
+            </ul>
+            <ul>
+                <li>head = <code>&lsaquo;head&rsaquo;&lsaquo;/head&rsaquo;</code></li>
+                <p>
+                    incia o HEAD COM SINAL DE MAIOR &lsaquo; e fecha com a barra / e sinal de MENOR &rsaquo;
+                </p>
+                <hr>
+            </ul>
+            <ul>
+                <li>body = <code>&lsaquo;body&rsaquo;&lsaquo;/body&rsaquo;</code></li>
+                <p>
+                    incia o BODY COM SINAL DE MAIOR &lsaquo; e fecha com a barra / e sinal de MENOR &rsaquo;
+                </p>
+                <hr>
+            </ul>
+
+            <h3>O que são essas estruturas :</h3>
+            <h4>HTML</h4>
+            <P>
+                É o bloco do código principal
+            </P>
+            <h3>O que são essas estruturas :</h3>
+            <h4>HEAD</h4>
+            <P>
+                É a "cabeça" da página, tudo aquilo que configura a página mas não aparece visualmente para o usúario
+            </P>
+            <h3>O que são essas estruturas :</h3>
+            <h4>BODY</h4>
+            <P>
+                É o Corpo da página, neste caso tudo que é marcado dentro da tag BODY é apresentado ao usuário visualmente
+            </P>
+     </p>
+     <hr>
+     <a href="#inicio">voltar ao início</a>
+     <h2 style="color:orangered"> 05 - Falando sobre Tags</h2>
+     <p> 
+        A Tag HTML é um tipo de marca que define o conteúdo, ela define o tipo de conteúdo que define como será exibido na página
+    </p>
+     <h4>Exemplos de tags:</h4>
+        <ul>
+            <li><strong>H1 - H2 - H3 - H4 - H5 - H6</strong>
+                <P> São tags destinadas aos titulos da página, sendo a H1 como a tag para o titulo princial e as subsequentes como subtiluos
+                <P>
+            </li>
+            <li><strong>P</strong>
+                <p>
+                    a tag <strong>P</strong> é destinada a identificação de paragráfos.
+                </p>
+            </li>
+            <li><strong>Strong</strong>
+                <p>
+                    a tag <strong>STRONG</strong> é muito utilizada para dar grande importância a certa palavra
+                </p>
+            </li>
+            <li><strong>A</strong>
+                <p>
+                    a tag <strong>A</strong> serve para "ancorar" criar um vinculo com outro documento, podendo ser  
+                </p>
+            </li>
+            <li><strong>HR</strong>
+                <p> 
+                    tag utilizada para criar um linha e dividir o conteudo
+                </p>
+            </li>
+            <li><strong>UL - OL</strong>
+                <P>
+                    As tags UL e OL são tags para criarmos listas ordenadas e não ordenadas:<br>
+                    <STRONG>OL:</STRONG> lista ordenada, onde segue uma sequencia, muito utlizada para listarmos um receita por exemplo onde devem ser seguido os ingredientes conforme sua ordem:<br>
+                        <ol>
+                            <li> primeiro acrescentamos a farinha</li>
+                            <li> segundo acrescentamos os ovos</li>
+                            <li> terceiro deve ser colocado o leite</li>
+                            <li> por ultimo mexa a mistura até formar uma massa lisa e consistente</li>
+                        </ol>  
+                </P>
+                <p>
+                    <STRONG>UL:</STRONG> lista não ordenada, diferente da lista OL ordenada, na UL não temos uma sequencia a ser seguida:<br>
+                        <ul>
+                            <li> Pastel</li>
+                            <li> Coxinha</li>
+                            <li> Empada</li>
+                            <li> Pizza</li>
+                        </ul>  
+                </p>
+            </li>
+        </ul>
+        <hr>
+        <a href="#inicio">voltar ao início</a>
+
+        <h2 style="color:orangered"> 06 - Atributos das tags</h2>
+        <p>
+            os <strong>atributos</strong> fornecem informações adicionais as tags, algumas tags só funcionam com seu atributo definido:<br><br>
+
+            tag <strong>A</strong> usa um atributo <strong>HREF</strong>: ele especifica o endereço para onde vai o link.<br><br>
+
+            Outro exempo de atributo é o atributo usado nas tags <strong>INPUT</strong>: o atributo <strong>TYPE</strong> define o tipo de input, se sera texto, e-mail, senha entre outros.
+        </p>
+        <a href="#inicio">voltar ao início</a>
+        <h2 style="color:orangered"> 07 - Textos</h2>
+        <p>
+            Os textos são basicamente o que o usúario irá ler,
+            para a formação dos textos temos alguns exemplos de tags principais:<br><br>
+            TAG: <strong>H1 até H6</strong> - utilizadas para determinar os titulos dos textos.<br><br>
+            TAG: <strong>P</strong> - tag voltada para os paragráfos.<br><br>
+            TAG: <strong>BLOCKQUOTE</strong> - tag utilizada para citar um frase por exemplo de outro autor.<br><br>
+            TAG: <strong>STRONG</strong> - a tag STRONG é muito utilizada para dar grande importância a certa palavra.<br><br>
+            TAG: <strong>MARK</strong> - tag para colocar um marca texto em determinado local
+        </p>
+        <a href="#inicio">voltar ao início</a>
+        <h2 style="color:orangered">08 - listas Ordenadas e Não ordenadas</h2>
+            <ul>
+                <li><strong>UL - OL</strong>
+                    <P>
+                        As tags UL e OL são tags para criarmos listas ordenadas e não ordenadas:<br>
+                        <STRONG>OL:</STRONG> lista ordenada, onde segue uma sequencia, muito utlizada para listarmos um receita por exemplo onde devem ser seguido os ingredientes conforme sua ordem:<br>
+                        <ol>
+                            <li> primeiro acrescentamos a farinha</li>
+                            <li> segundo acrescentamos os ovos</li>
+                            <li> terceiro deve ser colocado o leite</li>
+                            <li> por ultimo mexa a mistura até formar uma massa lisa e consistente</li>
+                        </ol>
+
+                    <p>
+                        <STRONG>UL:</STRONG> lista não ordenada, diferente da lista OL ordenada, na UL não temos uma sequencia a ser seguida:<br>
+                            <ul>
+                                <li> Pastel</li>
+                                <li> Coxinha</li>
+                                <li> Empada</li>
+                                <li> Pizza</li>
+                            </ul>  
+                    </p>
+            </ul> 
+            <a href="#inicio">voltar ao início</a>
+            <h2 style="color:orangered">09 - links</h2> 
+            <p> 
+                Os <strong>LINKS</strong> são responsáveis pela nagegação na internet com outros conteúdos, ao inserirmos um link no html possibilitamos o usúriao acessar as outras páginas do site e até mesmo páginas de outros sites.
+            </p>
+            <a href="#inicio">voltar ao início</a>
+            <h2 style="color:orangered">10 - Referências</h2>
+
+            <a href="https://www.dio.me/" target="_blank">Dio.</a><br>
+            <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3Scools</a><br>
+            <a href="https://www.youtube.com/@diomakethechange" target="blank">Dio.Youtube</a><br>
+            <a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Wikipédia</a><br><br>
+            <a style="color:orangered" href="#inicio" target="_blank">voltar ao início</a>
+</body>
+</html>
